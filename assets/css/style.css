@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Lato:wght@300&family=Oswald:wght@200&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/*---------------Root shortcuts*/
+:root {
+    --imperial-red: rgba(230, 57, 70, 1);
+    --honeydew: rgba(241, 250, 238, 1);/* used for background colour*/
+    --powder-blue: rgba(168, 218, 220, 1);
+    --celadon-blue: rgba(69, 123, 157, 1);
+    --prussian-blue: rgba(29, 53, 87, 1); 
+}
+
+/*---------------General*/
+* {
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: var(--honeydew);
+    font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+}
+
+.uppercase  {
+    text-transform: uppercase;
+}
+
+
+/*---------------Header & Nav*/
+
+.logo {
+    background: var(--powder-blue);
+    color: var(--imperial-red);
+    font-family: "Arima Madurai", sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--honeydew);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar {
+    margin-bottom: 2px;
+
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-link {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+.nav-link:hover {
+    color: rgb(236, 158, 13);
+}
+
+.navbar a.active {
+    color: rgb(255, 165, 0);
+}
+
+/*---------------Main Section*/
+
+.main-section {
+    font-size: 18%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading img {
+
+}
+
+.main-heading {
+    padding: 5px;
+    font-size: 1rem;
+    color: rgb(216, 112, 147);
+    background: rgba(5, 89, 145, 0.8);
+    text-align: center;
+    
+    order: -1;
+}
+
+.main-info {
+    
+}
+
+/*---------------Gallery Page*/
+
+.gallery-img {
+  
+}
+
+.gallery-img img {
+
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+    
+}
+
+/*---------------footer*/
+
+.main-footer {
+    position: relative;
+    min-height: auto;
+    width: 100%;
+    bottom: 0;
+
+    text-align: center;
+}
+
+footer a {
+    padding: 10px;
+}
+
+
+
+
+
+@media screen and (min-width:480px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        font-size: 1.4rem;
+    }
+
+    .main-heading {
+        font-size: 1.6rem;
+        border-radius: 5px;
+        height: auto;
+        width:30%;
+
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        text-align: center;
+    }
+    
+    .gallery-img {
+       height: 100%;
+        
+
+    }
+    .gallery-img img {
+        height: 55%;
+        width: 33%;
+        object-fit: cover;
+        vertical-align: bottom;
+    }
+
+
+}
+
