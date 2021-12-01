@@ -166,6 +166,9 @@ header  {
     grid-column: span 2;
 }
 
+.mission-box, .location-box {
+    grid-column: span 2;
+}
 
 .story-box {
     grid-column: span 2;
@@ -244,5 +247,7 @@ footer a {
         grid-column: span 4;
         text-align: center;
     }
+
+
 }
 
