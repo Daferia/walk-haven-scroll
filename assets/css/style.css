@@ -36,6 +36,26 @@ body {
     line-height: 1.2;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h1, h2, h3  {
+    text-align: center;
+}
+
+p {
+    font-size: 1.6rem ;
+}
+
 a   {
     text-decoration: none;
 }
@@ -44,12 +64,40 @@ a   {
     text-transform: uppercase;
 }
 
+.section-heading {
+    color: var(--china-pink);
+    font-size: 2.5rem;
+}
+
 .box-color {
-    padding: 5%;
-    background: var(--pastel-pink);
+    padding: 2rem;
+    background: var(--melon);
     border-radius: 10px;
 }
 
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+#about, #gallery {
+    min-height: 100vh;
+}
+
+#contact {
+    min-height: 80vh;
+}
+
+.gallery-images, .about-section, .contact-info {
+    margin-top: 2rem;
+}
+
+.gallery-images h2, .about-section h2, .contact-info h2 {
+    text-align: center;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
 
 /*Header & Nav*/
 header  {
@@ -63,15 +111,19 @@ header  {
 .logo {
     color: var(--china-pink);
     font-family: "Arima Madurai", sans-serif;
-    font-size: 2rem;
     display: flex;
     justify-content: center;
+}
+
+.logo h1 {
+    font-size: 4rem;
 }
 
 
 .navbar {
     margin-bottom: 2px;
     background: var(--honeydew);
+    border: 1px solid var(--melon);
     border-radius: 0 0 10px 10px;
     display: flex;    
     align-items: center;
@@ -100,7 +152,6 @@ header  {
 
 .main-section img {
     width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
     border-radius: 10px;
     grid-column: span 2;
 
@@ -127,54 +178,49 @@ header  {
 }
 
 .main-info {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
-
+    display: flex;
 }
 
 /*Gallery Page*/
 
 .gallery-images {
-    margin-top: 20px;
-    max-height: 60%;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 
 }
-.gallery-images, .about-heading h2{
-    text-align: center;
-}
 
-.gallery-img {
+.gallery-img, .about-img {
     width:100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
 }
 
 .gallery-video {
     display: grid;
     gap: 1rem;
 }
+
 .gallery-video video{
     border-radius: 10px;
-}
-
-.grid-col-span-2 {
-    grid-column: span 2;
 }
 
 /*About Section*/
 
 .about-section {
-    margin-top: 20px;
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.about-heading h2 {
-    text-align: center;
+.about-img {
+    grid-column: span 2;
+}
+
+.about-info {
+    display: flex;
+
 }
 
 /*footer*/
@@ -207,13 +253,17 @@ footer a {
 }
 
 @media screen and (min-width:480px) {
+    html    {
+        scroll-padding-top: 10rem;
+    }
+    
     body {
         width: 90vw;
         margin: auto;
     }
 
-    .logo {
-        font-size: 2rem;
+    .logo h1{
+        font-size: 6rem;
         
     }
 
@@ -226,9 +276,21 @@ footer a {
         border-radius: 10px;
         order: -1;
     }
+
+    .main-info,.about-info h3 {
+        padding-right: 2rem;
+    }
+
+    .main-info,.about-info p {
+        padding-left: 2rem;
+    }
     
     .about-section {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-img {
+        grid-column: span 4;
     }
 
     .gallery-images {
@@ -242,11 +304,6 @@ footer a {
        max-width: 100%;
        
     }
-
-    .gallery-img:last-child {
-        grid-column: span 4;
-    }
-
 
     .grid-col-span-1 {
         grid-column: 1;
