@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Lato:wght@300&family=Oswald:wght@200&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*---------------Root shortcuts*/
+/*Root shortcuts*/
 :root {
     --china-pink: #d87093ff;
     --shimmering-blush: #dd8095ff;
@@ -13,7 +13,7 @@
     --green-yellow-crayola: #ffeda0ff;
 }
 
-/*---------------General*/
+/*General*/
 
 * {
     box-sizing: border-box;
@@ -23,6 +23,7 @@
 }
 
 html {
+    font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 8rem;
 }
@@ -50,7 +51,7 @@ a   {
 }
 
 
-/*---------------Header & Nav*/
+/*Header & Nav*/
 header  {
     background: var(--melon);
     border-radius: 0 0 10px 10px;
@@ -92,7 +93,7 @@ header  {
     color: var(--china-pink);
 }
 
-/*---------------Main Section*/
+/*Main Section*/
 
 .main-section {
     display: grid;
@@ -123,9 +124,9 @@ header  {
 
 }
 
-/*---------------Gallery Page*/
+/*Gallery Page*/
 
-.gallery-section {
+.gallery-images {
     margin-top: 20px;
     max-height: 60%;
     display: grid;
@@ -133,7 +134,7 @@ header  {
     grid-template-columns: repeat(2, 1fr);
 
 }
-.gallery-section, .about-heading h2{
+.gallery-images, .about-heading h2{
     text-align: center;
 }
 
@@ -145,11 +146,19 @@ header  {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
 }
 
+.gallery-video {
+    display: grid;
+    gap: 1rem;
+}
+.gallery-video video{
+    border-radius: 10px;
+}
+
 .grid-col-span-2 {
     grid-column: span 2;
 }
 
-/*---------------About Section*/
+/*About Section*/
 
 .about-section {
     margin-top: 20px;
@@ -176,7 +185,7 @@ header  {
 }
 
 
-/*---------------footer*/
+/*footer*/
 
 .main-footer {
     min-height: 5vh;
@@ -232,10 +241,10 @@ footer a {
         text-align: center;
     }
     
-    .gallery-section {
+    .gallery-images {
       height: auto;
 
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       
     }
 
@@ -244,9 +253,9 @@ footer a {
        
     }
 
-    .grid-col-span-4 {
-        grid-column: span 4;
-        text-align: center;
+    .grid-col-span-6 {
+        grid-column: span 6;
+
     }
 
 
