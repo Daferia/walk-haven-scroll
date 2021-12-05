@@ -204,7 +204,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 # Testing
 * on testing the stie I found the images really slowed the site down. I used a site called
-[Compressjpeg](https://compressjepg.com/ "Compressjepg") to compress the files sizes for better rendering on load.
+[iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg") to compress the files sizes for better rendering on load.
 
 
 ## Unfixed Bugs
