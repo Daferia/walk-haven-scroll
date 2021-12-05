@@ -8,7 +8,7 @@
     --pastel-pink: #e7a099ff;
     --melon: #ecaf9aff;
     --honeydew: #F1FAEE;
-    --deep-champagne: #f6ce9dff;
+    --blue-violet-color-wheel: #4c1b6bff;
     --peach: #fbde9fff;
     --green-yellow-crayola: #ffeda0ff;
 }
@@ -31,6 +31,7 @@ html {
 body {
     width: 95vw;
     margin: auto;
+    color: var(--blue-violet-color-wheel);
     background-color: var(--honeydew);
     font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
     line-height: 1.2;
@@ -53,7 +54,8 @@ h1, h2, h3  {
 }
 
 p {
-    font-size: 1.6rem ;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 a   {
@@ -87,7 +89,7 @@ a   {
     min-height: 80vh;
 }
 
-.gallery-images, .about-section, .contact-info {
+.gallery-images, .about-section, .contact-info, .contact-info {
     margin-top: 2rem;
 }
 
@@ -109,7 +111,7 @@ header  {
 
 }
 .logo {
-    color: var(--china-pink);
+    color: var(--blue-violet-color-wheel);
     font-family: "Arima Madurai", sans-serif;
     display: flex;
     justify-content: center;
@@ -134,8 +136,8 @@ header  {
 .nav-link {
     color: rgb(80, 80, 80);
     font-size: 1.8rem;
-    text-decoration: none;
-    font-weight: 500; 
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -223,6 +225,18 @@ header  {
 
 }
 
+
+.contact-box   {
+    display: flex;
+}
+
+.comments {
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    background-color: var(--honeydew);
+  }
+
 /*footer*/
 
 .main-footer {
@@ -253,14 +267,16 @@ footer a {
 }
 
 @media screen and (min-width:480px) {
-    html    {
-        scroll-padding-top: 10rem;
-    }
-    
+
     body {
         width: 90vw;
         margin: auto;
     }
+
+    i {
+        padding: 0 2rem 0 2rem;
+        margin: auto;
+    };
 
     .logo h1{
         font-size: 6rem;
@@ -277,12 +293,14 @@ footer a {
         order: -1;
     }
 
-    .main-info,.about-info h3 {
+    .main-info h3,.about-info h3 {
         padding-right: 2rem;
+        margin: auto;
     }
 
-    .main-info,.about-info p {
+    .main-info p,.about-info p {
         padding-left: 2rem;
+        margin: auto;
     }
     
     .about-section {
@@ -295,14 +313,11 @@ footer a {
 
     .gallery-images {
       height: auto;
-
       grid-template-columns: repeat(4, 1fr);
-      
     }
 
     .gallery-img {
        max-width: 100%;
-       
     }
 
     .grid-col-span-1 {

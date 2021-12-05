@@ -13,9 +13,9 @@
 <body>
     <header>
         <a href="#home" class="logo">
-            <h1>Walk Haven</h1></a>
+            <h1 class="uppercase">Walk Haven</h1></a>
         <nav class="navbar">
-            <a class="nav-link active" href="#about">About Us</a>
+            <a class="nav-link" href="#about">About Us</a>
             <a class="nav-link" href="#gallery">Gallery</a>
             <a class="nav-link" href="#contact">Contact Us</a>
           </nav>
@@ -49,13 +49,14 @@
     <div class="about-section">
         <h2 class="section-heading uppercase grid-col-span-2 grid-col-span-4">About us</h2>
     <div class="mission-box about-info box-color grid-col-span-2 box-shadow">
+        <i class="fas fa-bullseye fa-5x"></i>
         <h3 class="uppercase">Our Mission</h3>
         <p>Dedicated to the preservation and enhancement of a safe and pleasing dog park, the promotion of responsible dog ownership, and the enjoyment of all the animals and owners that share the Walk Haven.
 There are few things in life a dog loves more than running off-leash with his canine friends. No matter where you live or where you’re headed in beautiful South Wales, we can help you and your best friend get most of the walk at Walk Haven.</p>
     </div>
     <div class="location-box about-info box-color grid-col-span-2 box-shadow">
-        
-        <h3 class="uppercase"><i class="far fa-compass fa-2x"></i> Park Location & Hours</h3>
+        <i class="far fa-compass fa-5x"></i>
+        <h3 class="uppercase"> Park Location & Hours</h3>
         <p>Located about 1.5 miles from Swansea Bay on an off-grid, yet accessible estate. Walk
             Haven is open every day 6 AM – 8 PM from October to March and 5 AM - 10 PM from April to September.</p>
     </div>
@@ -84,6 +85,7 @@ There are few things in life a dog loves more than running off-leash with his ca
         who wishes to visit. We do also welcome donations and should you want to get in touch please to go over to our Contact page and fill out the form. We do read and reply to every email we get.</p>
     </div>
     <div class="volunteers-box box-color grid-col-span-2 box-shadow">
+        <i class="fas fa-hands-helping fa-5x"></i>
             <h3 class="uppercase">Volunteers</h3>
             <p>If you are looking for an opportunity to help keep our free cause running and help 
             maintain what we believe is the best dog park in the UK, please consider volunteering 
@@ -132,18 +134,22 @@ There are few things in life a dog loves more than running off-leash with his ca
         </video>
     </div>-->
 </section>
-<section id="contact" class="contact-info">
+<section id="contact">
+    <div class="contact-info">
     <h2 class="section-heading uppercase">Contact Us</h2>
-    <form action="">
-        <label for="fname"></label>
+    <div class="contact-box">
+    <form action="/form/submit" method="POST">
+        <label for="fname">First Name:</label>
         <input type="text" name="fname" id="fname">
-        <label for="lname"></label>
+        <label for="lname">Last Name:</label>
         <input type="text" name="lname" id="lname">
-        <label for="email"></label>
+        <label for="email">Email:</label>
         <input type="email" name="email" id="email">
-        <label for="comments"></label>
-        <input type="textarea" name="comments" id="comments">
+        <textarea type="text" class="comments" placeholder="Write a comment"></textarea>
+        <input type="submit" name="submit" value="Send">
     </form>
+    </div> 
+</div> 
 </section>
 <footer class="main-footer">
     <div class="sml-footer">
