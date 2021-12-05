@@ -103,6 +103,17 @@ header  {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
     border-radius: 10px;
     grid-column: span 2;
+
+    /* Animates fade effect on loading the page */
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+/* Creates fade effect for main-section image */
+@keyframes fade-in {
+    0% {opacity: 0;}
+            100% {opacity: 1;}
 }
 
 .main-heading {
@@ -113,7 +124,6 @@ header  {
     text-align: center;
     border-radius: 10px;
     grid-column: span 2;
-    order: -1;
 }
 
 .main-info {
@@ -214,8 +224,7 @@ footer a {
     .main-heading {
         font-size: 2.6rem;
         border-radius: 10px;
-        width: 60%;
-        margin: auto;
+        order: -1;
     }
     
     .about-section {
