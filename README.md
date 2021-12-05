@@ -1,108 +1,238 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Logo](wireframes/logo.JPG)
 
-Welcome Fabio Faria,
+# Walk Haven - Dog Park
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# Goal for this Project
+Welcome to Walk Haven - Dog Park Webiste. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+![Responsive Displays]()<!-- insert resposive images of webiste here-->
 
-Another blue button should appear to click: _Open Browser_.
+# Table of Contents
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
+         * [Expectations](#expectations)
+     * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colours](#colours)
+        * [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+            * [Navigation Bar](#navigation-bar)
+            * [Landing Page](#landing-page)
+            * [About Section](#about-section)
+            * [Events Section](#events-section)
+            * [Contact Section](#contact-section)
+            * [Footer](#footer)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Tools and Libraries](#tools-and-libraries)
+    * [Testing](#testing)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
+# UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Goals
+* Visually appealing, including images.
+* Easily navigated around.
+* Quality and valuable content.
+* Easily found contact details.
+* Form to contact the Owners.
 
-A blue button should appear to click: _Make Public_,
+## User Stories
+* As an End User, I want to be infomred of how the park came to be.
+* As an End User, I want to be able to easily contact the the site owner/meet-up organiser.
+* As an End User, I want to be able to make contact with us via several different methods, i.e. social media.
+* As an End User, I want to be able to easily navigate through the website.
+* As an End User, I want to know where the park is situated and directions.
 
-Another blue button should appear to click: _Open Browser_.
+## Site owners Goals
+* Promote the park by getting user to see what we are about.
+* Increase the number of volunteers and memberships.
+* Increase rankings on search engines.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Requirements
+* Easy to navigate on various screen sizes.
+* Clear information on the parks services.
+* Keep the user interested with small bits of information to make them want to engage with the club.
+* Simple methods of contacting the park.
+* Visually inviting so users do not leave.
 
-To log into the Heroku toolbelt CLI:
+### Expectations
+* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
+* I expect all links to social media sites to be opened in a new tab.
+* I expect all navigation links to work correctly.
+* I expect screen size not to affect the quality of the website.
+* I expect all information to be correct and accurate.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design Choices
 
-------
+### Fonts
+I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
+I have mostly used "Roboto", "Lato" and "Oswald" for most of the site. "Robot" will be used for the Body and "lato" for the the Time Line.
 
-## Release History
+### Icons
+I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These logos are easy to interpret and are free to use on the website
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Colours
+I have used [Coolors](https://coolors.co/ "coolors") to generate a suitable palette for my colour scheme. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+I will explain the uses of the varius colours below, starting from top to bottom.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Colour Pallet](/wireframes/coolors-palette.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ 
+ * --imperial-red: #e63946ff;
+ * --honeydew: #f1faeeff;
+ * --powder-blue: #a8dadcff;
+ * --celadon-blue: #457b9dff;
+ * --prussian-blue: #1d3557ff;
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Structure
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I have decided to use Flex for creating a resposive layout over Bootstrap. I preferred flex over bootstrap due to the flexibilty (no pun intended) in styling my webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Wireframes
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The wireframes are below:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### [Desktop Wireframe]( "Desktop wireframe")
+### [Tablet Wireframe]( "Tablet wireframe")
+### [Phone Wireframe]( "Phone wireframe")
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Features
 
-------
+## Existing Features
 
-## FAQ about the uptime script
+### Navigation Bar
 
-**Why have you added this script?**
+The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the club logo which doubles as a link back to the home screen.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
++ Desktop (>=992px)
 
-**How will this affect me?**
++ Small devices (<992px)
+\
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+### Landing Page and Welcome Page
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
++ The landing page image
+   - General Welome page with a brief intro to the site. 
+   - Hero Image as well as a logo.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Gallery
 
-**So….?**
++ Collection of images taken mostly from Unsplash
+ - random pictures of pets and people walking their dogs.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Contact Section
 
-**Can I opt out?**
+### Footer
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
++ The footer will contain the links to all my social media.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Features to be Implemented
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
----
+# Technologies used
 
-Happy coding!
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## Libraries & Framework
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Bootstrap](https://getbootstrap.com "Bootstrap")
+* [Coolors](https://coolors.io/ "coolors")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Unsplash](https://unsplash.com/ "Unsplash")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Testing
+* on testing the stie I found the images really slowed the site down. I used a site called
+[Compressjpeg](https://compressjepg.com/ "Compressjepg") to compress the files sizes for better rendering on load.
+
+
+## Unfixed Bugs
+
+# Deployment
+
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+For code insperation, help and advice,
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+\
+&nbsp;
+
+# image credits and location
+
+* Most of my images were from a person call Chewy. I found his images really expressed what i was trying to achieve.[https://unsplash.com/photos/EV9_vVMZTcg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink](/workspace/the-vintage-gamer/assets/images/chewy-EV9_vVMZTcg-unsplash.jpg "Unsplash - Chewey");
+
+*[https://unsplash.com/photos/PLuIeOaqpYg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink](assets/images/adam-valstar-PLuIeOaqpYg-unsplash.jpg "Adam Valstar")
+
+For content and style insperation,
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
