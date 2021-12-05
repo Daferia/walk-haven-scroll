@@ -61,11 +61,9 @@ header  {
 
 }
 .logo {
-    
     color: var(--china-pink);
     font-family: "Arima Madurai", sans-serif;
-    
-
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -75,8 +73,6 @@ header  {
     margin-bottom: 2px;
     background: var(--honeydew);
     border-radius: 0 0 10px 10px;
-
-
     display: flex;    
     align-items: center;
     justify-content: space-evenly;
@@ -85,6 +81,7 @@ header  {
 }
 .nav-link {
     color: rgb(80, 80, 80);
+    font-size: 1.8rem;
     text-decoration: none;
     font-weight: 500; 
 }
@@ -110,7 +107,7 @@ header  {
 
 .main-heading {
     padding: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(216, 112, 147);
     background: rgba(5, 89, 145, 0.8);
     text-align: center;
@@ -162,28 +159,13 @@ header  {
 
 .about-section {
     margin-top: 20px;
-
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem
-    ;
+    gap: 1rem;
 }
+
 .about-heading h2 {
     text-align: center;
 }
-
-.about-heading{
-    grid-column: span 2;
-}
-
-.mission-box, .location-box {
-    grid-column: span 2;
-}
-
-.story-box {
-    grid-column: span 2;
-}
-
 
 /*footer*/
 
@@ -230,21 +212,20 @@ footer a {
     }
 
     .main-heading {
-        font-size: 1.6rem;
+        font-size: 2.6rem;
         border-radius: 10px;
-        height: auto;
-        width:30%;
-
-        position: absolute;
-        top: 40%;
-        left: 10%;
-        text-align: center;
+        width: 60%;
+        margin: auto;
     }
     
+    .about-section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     .gallery-images {
       height: auto;
 
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       
     }
 
@@ -253,6 +234,18 @@ footer a {
        
     }
 
+    .gallery-img:last-child {
+        grid-column: span 4;
+    }
+
+
+    .grid-col-span-1 {
+        grid-column: 1;
+    }
+
+    .grid-col-span-4 {
+        grid-column: span 4;
+    }
     .grid-col-span-6 {
         grid-column: span 6;
 
