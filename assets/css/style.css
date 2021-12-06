@@ -109,6 +109,7 @@ a {
 .about-section p,
 .contact-info p {
   text-align: center;
+  width: 100%;
 }
 
 .grid-col-span-2 {
@@ -196,10 +197,6 @@ header {
   grid-column: span 2;
 }
 
-.main-info {
-  display: flex;
-}
-
 /*About Section*/
 
 .about-section {
@@ -218,7 +215,7 @@ header {
     align-items: center;
   }
   
-  .volunteers-box {
+  .volunteers-box, .hours-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,8 +296,69 @@ footer a {
   html {
     scroll-padding-top: 10rem;
   }
+
   body {
-    width: 60vw;
+    width: 80vw;
+    margin: auto;
+  }
+
+  .logo h1 {
+    font-size: 6rem;
+  }
+
+  .navbar {
+    font-size: 1.4rem;
+  }
+
+  .main-heading {
+    font-size: 2.6rem;
+    border-radius: 10px;
+    order: -1;
+  }
+
+  .main-info h3,
+  .about-info h3,
+  .volunteers-box h3 {
+    margin: 0.5rem 0 2rem 0;
+  }
+
+  .main-info p,
+  .about-info p,
+  .volunteers-box p {
+    margin-bottom: 2rem;
+  }
+
+  .about-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-img {
+    grid-column: span 2;
+  }
+
+  .gallery-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery-img {
+    max-width: 100%;
+  }
+
+  .grid-col-span {
+    grid-column: span 1;
+  }
+
+  .grid-col-span-gallery {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 771px) {
+  html {
+    scroll-padding-top: 10rem;
+  }
+  body {
+    width: 70vw;
     margin: auto;
   }
 
@@ -325,7 +383,8 @@ footer a {
 
   .main-info h3,
   .about-info h3,
-  .volunteers-box h3 {
+  .volunteers-box h3,
+  .hours-box h3 {
     padding-right: 1.5rem;
     margin: auto;
   }
@@ -350,13 +409,12 @@ footer a {
     align-items: center;
   }
 
-  .volunteers-box {
+  .volunteers-box, .hours-box {
     flex-direction: row;
     align-items: center;
   }
 
   .gallery-images {
-    height: auto;
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -364,8 +422,8 @@ footer a {
     max-width: 100%;
   }
 
-  .grid-col-span-1 {
-    grid-column: 1;
+  .grid-col-span-2 {
+    grid-column: span 2;
   }
 
   .grid-col-span-4 {
@@ -374,4 +432,15 @@ footer a {
   .grid-col-span-6 {
     grid-column: span 6;
   }
+}
+
+@media screen and (min-width: 771px) {
+  html {
+    scroll-padding-top: 10rem;
+  }
+
+  body {
+    width: 80vw;
+  };
+  
 }
