@@ -103,7 +103,7 @@ a {
 .gallery-images,
 .about-section,
 .contact-info {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .gallery-images h2,
@@ -135,7 +135,7 @@ header {
   z-index: 999;
 }
 .logo {
-  color: var(--blue-violet-color-wheel);
+  color: var(--china-pink);
   font-family: "Arima Madurai", sans-serif;
   display: flex;
   justify-content: center;
@@ -148,7 +148,7 @@ header {
 .navbar {
   margin-bottom: 2px;
   background: var(--honeydew);
-  border: 1px solid var(--melon);
+  border: 1px solid var(--wheat);
   border-radius: 0 0 10px 10px;
   display: flex;
   align-items: center;
@@ -200,7 +200,7 @@ header {
   min-height: 10rem;
   padding-top: 2.5rem;
   color: var(--china-pink);
-  background: var(--beige);
+  background: var(--dutch-white);
   text-align: center;
   border-radius: 10px;
   grid-column: span 2;
@@ -302,20 +302,11 @@ footer a {
 }
 
 @media screen and (min-width: 480px) {
-  html {
-    scroll-padding-top: 10rem;
-  }
-
+  
   body {
     width: 80vw;
     margin: auto;
   }
-
-  .gallery-images,
-.about-section,
-.contact-info {
-  margin-top: 8rem;
-}
 
 .gallery-images h2,
 .about-section h2,
@@ -375,9 +366,7 @@ footer a {
 }
 
 @media screen and (min-width: 771px) {
-  html {
-    scroll-padding-top: 10rem;
-  }
+
   body {
     width: 70vw;
     margin: auto;
