@@ -11,6 +11,14 @@
   --blue-violet-color-wheel: #4c1b6bff;
   --peach: #fbde9fff;
   --green-yellow-crayola: #ffeda0ff;
+
+  --honeydew: #F1FAEE; /**/
+  --beige: #F1F3E0; /**/
+  --eggshell: #F1EBD1;
+  --dutch-white: #F1E4C3;
+  --wheat: #F0DCB4;/**/
+  --wheat-2: #F0D5A6;
+  --deep-champagne: #F0CD97;
 }
 
 /*General*/
@@ -31,7 +39,7 @@ html {
 body {
   width: 95vw;
   margin: auto;
-  color: var(--blue-violet-color-wheel);
+  color: var(--china-pink);
   background-color: var(--honeydew);
   font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
   line-height: 1.2;
@@ -75,7 +83,7 @@ a {
 
 .box-color {
   padding: 2rem;
-  background: var(--melon);
+  background: var(--beige);
   border-radius: 10px;
 }
 
@@ -94,22 +102,23 @@ a {
 
 .gallery-images,
 .about-section,
-.contact-info,
 .contact-info {
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .gallery-images h2,
 .about-section h2,
 .contact-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
   text-align: center;
 }
 
 .gallery-images p,
 .about-section p,
-.contact-info p {
+.contact-info p,
+.main-info p {
   text-align: center;
-  width: 100%;
 }
 
 .grid-col-span-2 {
@@ -119,7 +128,7 @@ a {
 /*Header & Nav*/
 
 header {
-  background: var(--melon);
+  background: var(--wheat);
   border-radius: 0 0 10px 10px;
   position: sticky;
   top: 0;
@@ -162,7 +171,7 @@ header {
 
 .main-section {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -188,10 +197,10 @@ header {
 }
 
 .main-heading {
-  padding: 5px;
-  font-size: 1.2rem;
-  color: rgb(216, 112, 147);
-  background: rgba(5, 89, 145, 0.8);
+  min-height: 10rem;
+  padding-top: 2.5rem;
+  color: var(--china-pink);
+  background: var(--beige);
   text-align: center;
   border-radius: 10px;
   grid-column: span 2;
@@ -201,7 +210,7 @@ header {
 
 .about-section {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
   }
   
@@ -225,7 +234,7 @@ header {
 
 .gallery-images {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -239,7 +248,7 @@ header {
 
 .gallery-video {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .gallery-video video {
@@ -273,7 +282,7 @@ header {
 
 .main-footer {
   min-height: 5vh;
-  background: var(--melon);
+  background: var(--wheat);
   margin-top: 1rem;
   text-align: center;
 }
@@ -301,6 +310,18 @@ footer a {
     width: 80vw;
     margin: auto;
   }
+
+  .gallery-images,
+.about-section,
+.contact-info {
+  margin-top: 8rem;
+}
+
+.gallery-images h2,
+.about-section h2,
+.contact-info h2 {
+  font-size: 3.5rem;
+}
 
   .logo h1 {
     font-size: 6rem;
@@ -384,11 +405,12 @@ footer a {
   .main-info h3,
   .about-info h3,
   .volunteers-box h3,
+  .hours-box h3,
   .hours-box h3 {
     padding-right: 1.5rem;
     margin: auto;
   }
-
+  
   .main-info p,
   .about-info p,
   .volunteers-box p {
@@ -412,6 +434,10 @@ footer a {
   .volunteers-box, .hours-box {
     flex-direction: row;
     align-items: center;
+  }
+
+  .hours-box h2{
+    padding-right: 1.5rem;
   }
 
   .gallery-images {
