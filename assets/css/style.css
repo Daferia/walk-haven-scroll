@@ -33,7 +33,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 8rem;
+  scroll-padding-top: 12rem;
 }
 
 body {
@@ -449,13 +449,3 @@ footer a {
   }
 }
 
-@media screen and (min-width: 771px) {
-  html {
-    scroll-padding-top: 10rem;
-  }
-
-  body {
-    width: 80vw;
-  };
-  
-}
