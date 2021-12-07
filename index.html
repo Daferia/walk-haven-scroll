@@ -128,15 +128,23 @@
     <div class="contact-info">
       <h2 class="section-heading uppercase grid-col-span-2">Contact Us</h2>
       <div class="contact-box box-color box-shadow grid-col-span-2">
-        <form action="/form/submit" method="POST">
-          <label for="fname">First Name:</label>
-          <input type="text" name="fname" id="fname">
-          <label for="lname">Last Name:</label>
-          <input type="text" name="lname" id="lname">
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email">
-          <textarea type="text" class="comments" placeholder="Write a comment"></textarea>
-          <input type="submit" name="submit" value="Send">
+        <form action="thankyou.html">
+          <label for="full-name">Name</label>
+          <input type="text" name="full-name" id="full-name" placeholder="Enter your name.." required="">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email address.." required="">
+          <label for="phone-number">Phone Number (optional)</label>
+          <input type="tel" name="phone-number" id="phone-number" placeholder="+441234123456">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required="">
+            <option value="">Please select a subject</option>
+            <option value="general-enquiry">General Enquiry</option>
+            <option value="discuss-volunteer">Discuss Volunteering</option>
+            <option value="complaint">Complaints</option>
+          </select>
+          <label for="message-content">Message</label>
+          <textarea name="message-content" id="message-content" rows="10" placeholder="Let us know how we can help.." required=""></textarea>
+          <button class="contact-btn" type="submit">Send Message</button>
         </form>
       </div>
       <!--<div class="gallery-video">

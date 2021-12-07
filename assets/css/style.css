@@ -279,20 +279,41 @@ header {
   border-radius: 0.5rem;
 }
 
-/*Contact Page*/
+/*Contact Page + Form*/
 
 .contact-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.contact-box {
-
+.contact-box form{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
 }
 
-.video-loop {
-    width: 100px;
-    height: 100px;
+form label {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+form input,
+form select {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-btn {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--china-pink);
+  background-color: var(--wheat);
+  padding: 1rem;
+  width: auto;
+  margin: 1.5rem auto;
+  border: 0.1rem solid var(--china-pink);
+  border-radius: 1.5rem;
 }
 
 .comments {
@@ -385,6 +406,11 @@ footer a {
   .grid-col-span-gallery {
     grid-column: span 4;
   }
+
+  .contact-box form{
+    max-width: 75%;
+  }
+
 }
 
 @media screen and (min-width: 771px) {
@@ -474,8 +500,13 @@ footer a {
   .grid-col-span-4 {
     grid-column: span 4;
   }
+
   .grid-col-span-6 {
     grid-column: span 6;
+  }
+
+  .contact-box form{
+    max-width: 60%;
   }
 
   .footer-box i {
