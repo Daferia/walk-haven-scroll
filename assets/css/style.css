@@ -93,12 +93,9 @@ a {
 }
 
 #about,
-#gallery {
-  min-height: 100vh;
-}
-
+#gallery,
 #contact {
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .gallery-images,
@@ -286,22 +283,33 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
+.contact-box {
+  margin-bottom: 2rem;
+}
+
 .contact-box form{
   display: grid;
   grid-template-columns: 1fr;
-  margin: auto;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: 0.1rem solid var(--china-pink);
+  border-radius: 0.5rem;
 }
 
 form label {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 form input,
-form select {
-  font-size: 2rem;
+form select,
+form textarea {
+  font-size: 1.8rem;
+  padding: 1rem;
   margin-bottom: 2rem;
+  border: 0.1rem solid var(--china-pink);
+
 }
 
 .contact-btn {
@@ -311,7 +319,7 @@ form select {
   background-color: var(--wheat);
   padding: 1rem;
   width: auto;
-  margin: 1.5rem auto;
+  margin: 2rem 2rem auto;
   border: 0.1rem solid var(--china-pink);
   border-radius: 1.5rem;
 }
@@ -323,6 +331,12 @@ form select {
   background-color: var(--honeydew);
 }
 
+.video-loop {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+
 /*footer*/
 
 .footer-box {
@@ -331,6 +345,7 @@ form select {
   padding-top: 1rem;
   margin: auto;
   text-align: center;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 footer a {
@@ -407,10 +422,7 @@ footer a {
     grid-column: span 4;
   }
 
-  .contact-box form{
-    max-width: 75%;
-  }
-
+ 
 }
 
 @media screen and (min-width: 771px) {
@@ -507,6 +519,11 @@ footer a {
 
   .contact-box form{
     max-width: 60%;
+  }
+
+  .video-loop {
+    width: 60%;
+    margin-left: 20%;
   }
 
   .footer-box i {
