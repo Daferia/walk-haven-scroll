@@ -5,11 +5,14 @@
 
 
 # Goal for this Project
-Welcome to Walk Haven - Dog Park Webiste. 
+Welcome to Walk Haven - Dog Park Webiste.
+
+This site is to provide information about somewhere where owners and their best friends can 
+
+Visitors will have the abilty to contact Walk haven through a contact form.
 
 
-
-![Responsive Displays]()<!-- insert resposive images of webiste here-->
+![Responsive Displays](wireframes/amiresponsive.png)
 
 # Table of Contents
 * [UX](#ux "UX")
