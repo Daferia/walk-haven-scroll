@@ -147,25 +147,46 @@ I plan to add a Google Maps API so that the End user can easily navigate to the 
 ### Navigation Bar
 
 The navigation bar is fully responsive and even though it is a single page it still feels as a multiple page website. It includes links to hover pseudo elements and by limiting the links to three, makes for a relaxed and easy navigation experience.
-
-+ Desktop (>=992px)
-
-+ Small devices (<992px)
 \
+&nbsp;
+
++ Desktop (>=771px)
+\
+&nbsp;
+![Navigation bar](wireframes/large.png)
+
+
++ Small devices (<480px)
+\
+&nbsp;
+![Navigation Bar](wireframes/mobile.png)
+\
+&nbsp;
 
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
 ### Landing Page and Welcome Page
 
-+ The landing page image
-   - General Welome page with a brief intro to the site. 
++ The Home/Landing page image
+   - General Welome page with a brief Welcome to the site. 
    - Hero Image as well as a logo.
 
 ### Gallery
 
 + Collection of images taken mostly from Unsplash
  - random pictures of pets and people walking their dogs.
+
+### About Section
+
++ This section is broken down into small bite size chucks on information as well as Our Story on how Walk Haven came to be
+  - This section includes: Our Mission, Park Location and Hours
+  - Image of a family bathing the beloved pet
+  - Our Story
+  - 
+
+
 
 ### Contact Section
 
