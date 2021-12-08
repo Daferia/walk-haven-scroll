@@ -217,9 +217,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
-    ![W3 HTML Validation](wireframes/W3validatorcheck.png)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-    ![W3 CSS Validation](wireframes/w3CSSvalidation.png)
 * [Coolors](https://coolors.io/ "coolors")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
@@ -240,6 +238,12 @@ The navigation bar is fully responsive and even though it is a single page it st
 * Also when the site was three separate pages it would load the gallery really slowly which made for a unpleasant user experience. Changing it to one scrolling page made it a lot better to navigate.
 
 + I wanted to incorporate a modal for a contact form instead of a embebed form on the page. When trying to style it it would cause issues when in small viewports. As it was a CSS only modal i decided to wait for further learning and possibl add the feature in version 2 of the site.
+
++ W3 HTMl Validation
+![W3 HTML Validation](wireframes/W3validatorcheck.png)
+
++ W3 CSS Validation
+![W3 CSS Validation](wireframes/w3CSSvalidation.png)
 
 ## Unfixed Bugs
 
