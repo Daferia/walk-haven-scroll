@@ -2,23 +2,12 @@
 
 /*Root shortcuts*/
 :root {
-  --china-pink: #d87093ff;
-  --shimmering-blush: #dd8095ff;
-  --shimmering-blush-2: #e29097ff;
-  --pastel-pink: #e7a099ff;
-  --melon: #ecaf9aff;
+  --china-pink: #d87093ff;/**/
   --honeydew: #f1faee;
-  --blue-violet-color-wheel: #4c1b6bff;
-  --peach: #fbde9fff;
-  --green-yellow-crayola: #ffeda0ff;
-
-  --honeydew: #F1FAEE; /**/
-  --beige: #F1F3E0; /**/
-  --eggshell: #F1EBD1;
-  --dutch-white: #F1E4C3;
-  --wheat: #F0DCB4;/**/
-  --wheat-2: #F0D5A6;
-  --deep-champagne: #F0CD97;
+  --honeydew: #f1faee; /**/
+  --beige: #f1f3e0; /**/
+  --dutch-white: #f1e4c3;/**/
+  --wheat: #f0dcb4; /**/
 }
 
 /*General*/
@@ -115,17 +104,17 @@ a {
   font-size: 2.5rem;
 }
 
-  .main-info h3,
-  .about-info h3,
-  .volunteers-box h3,
-  .hours-box h3,
-  .hours-box h3 {
-    padding-bottom: 1.5rem;
-  }
+.main-info h3,
+.about-info h3,
+.volunteers-box h3,
+.hours-box h3,
+.hours-box h3 {
+  padding-bottom: 1.5rem;
+}
 
-  i {
-    padding-bottom: 1.5rem;
-  }
+i {
+  padding-bottom: 1.5rem;
+}
 
 .grid-col-span-2 {
   grid-column: span 2;
@@ -190,7 +179,7 @@ header {
   animation-fill-mode: both;
 }
 
-  /* Creates fade effect for main-section image */
+/* Creates fade effect for main-section image */
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -218,38 +207,39 @@ header {
 /*About Section*/
 
 .about-section {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .about-img {
-    grid-column: span 2;
-  }
-  
-  .about-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .story-box p {
-    margin-bottom: 2rem;
-  }
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-  .volunteers-box, .hours-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.about-img {
+  grid-column: span 2;
+}
 
-  .hours {
-    padding-bottom: 0.5rem;
-    font-weight: 900;
-  }
-  .hours+p {
-    padding-bottom: 1.5rem;
-  }
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-box p {
+  margin-bottom: 2rem;
+}
+
+.volunteers-box,
+.hours-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hours {
+  padding-bottom: 0.5rem;
+  font-weight: 900;
+}
+.hours + p {
+  padding-bottom: 1.5rem;
+}
 
 /*Gallery Page*/
 
@@ -279,15 +269,15 @@ header {
 /*Contact Page + Form*/
 
 .contact-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact-box {
   margin-bottom: 2rem;
 }
 
-.contact-box form{
+.contact-box form {
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem;
@@ -305,11 +295,11 @@ form label {
 form input,
 form select,
 form textarea {
+  color: var(--china-pink);
   font-size: 1.8rem;
   padding: 1rem;
   margin-bottom: 2rem;
   border: 0.1rem solid var(--china-pink);
-
 }
 
 .contact-btn {
@@ -336,7 +326,6 @@ form textarea {
   border-radius: 0.5rem;
 }
 
-
 /*footer*/
 
 .footer-box {
@@ -360,7 +349,6 @@ footer a {
 }
 
 @media screen and (min-width: 480px) {
-  
   body {
     width: 80vw;
     margin: auto;
@@ -369,7 +357,7 @@ footer a {
   .main-heading h2 {
     font-size: 3rem;
   }
-  
+
   .gallery-images h2,
   .about-section h2,
   .contact-info h2 {
@@ -421,12 +409,9 @@ footer a {
   .grid-col-span-gallery {
     grid-column: span 4;
   }
-
- 
 }
 
 @media screen and (min-width: 771px) {
-
   body {
     width: 70vw;
     margin: auto;
@@ -467,7 +452,7 @@ footer a {
     padding-right: 1.5rem;
     margin: auto;
   }
-  
+
   .main-info p,
   .about-info p,
   .volunteers-box p {
@@ -488,12 +473,13 @@ footer a {
     align-items: center;
   }
 
-  .volunteers-box, .hours-box {
+  .volunteers-box,
+  .hours-box {
     flex-direction: row;
     align-items: center;
   }
 
-  .hours-box h2{
+  .hours-box h2 {
     padding-right: 1.5rem;
   }
 
@@ -517,7 +503,7 @@ footer a {
     grid-column: span 6;
   }
 
-  .contact-box form{
+  .contact-box form {
     max-width: 60%;
   }
 
@@ -530,4 +516,3 @@ footer a {
     padding: 2rem;
   }
 }
-
