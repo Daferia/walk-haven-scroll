@@ -340,6 +340,7 @@ form textarea {
 footer a {
   font-size: 5rem;
   color: var(--china-pink);
+  padding: 0 1rem 0 1rem;
 }
 
 @media screen and (max-width: 480px) {
