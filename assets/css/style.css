@@ -74,7 +74,7 @@ a {
 .box-color {
   padding: 2rem;
   background: var(--beige);
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 .box-shadow {
@@ -200,7 +200,6 @@ header {
 }
 
 .main-info {
-  border-radius: 0.5rem;
   grid-column: span 2;
 }
 
@@ -341,6 +340,18 @@ footer a {
   font-size: 5rem;
   color: var(--china-pink);
   padding: 0 1rem 0 1rem;
+}
+
+/* Thank you page*/
+
+.thank-you-box {
+  width: 50vw;
+  margin: 60% auto;
+  border: 0.1rem solid var(--china-pink);
+}
+.thank-you-box a{
+  color: var(--china-pink);
+  font-weight: 900;
 }
 
 @media screen and (max-width: 480px) {
