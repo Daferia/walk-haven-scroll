@@ -213,10 +213,13 @@ The navigation bar is fully responsive and even though it is a single page it st
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
 ## Tools
+* [Github](https://github.com/ "Github")
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+    ![W3 HTML Validation](wireframes/W3validatorcheck.png)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+    ![W3 CSS Validation](wireframes/w3CSSvalidation.png)
 * [Coolors](https://coolors.io/ "coolors")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
