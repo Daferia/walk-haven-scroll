@@ -265,7 +265,7 @@ This project is deployed by using Github.
 
 For code insperation, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-* [Chrisopher Rees](https://portfolio.christopher-rees.co.uk/ "Chrisopher Rees")
+* [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
 
 
 ## image credits and location
