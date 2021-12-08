@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Lato:wght@300&family=Oswald:wght@200&family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 /*Root shortcuts*/
 :root {
-  --china-pink: #d87093ff;/**/
+  --china-pink: #d87093;
   --honeydew: #f1faee;
-  --honeydew: #f1faee; /**/
-  --beige: #f1f3e0; /**/
-  --dutch-white: #f1e4c3;/**/
-  --wheat: #f0dcb4; /**/
+  --beige: #f1f3e0;
+  --dutch-white: #f1e4c3;
+  --wheat: #f0dcb4;
 }
 
 /*General*/
@@ -30,7 +29,7 @@ body {
   margin: auto;
   color: var(--china-pink);
   background-color: var(--honeydew);
-  font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
 

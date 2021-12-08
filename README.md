@@ -1,4 +1,4 @@
-![Logo](wireframes/logo.JPG)
+![Logo](wireframes/Logo.png)
 
 # Walk Haven - Dog Park
 
@@ -48,10 +48,10 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ## User Goals
 * Visually appealing, including images.
-* Easily navigated around.
+* Easily navigated around on single page but feel like a multi-page layout.
 * Quality and valuable content.
-* Easily found contact details.
-* Form to contact the Owners.
+* Easily found contact form.
+* Quick footer links to social media.
 
 ## User Stories
 * As an End User, I want to be infomred of how the park came to be.
@@ -89,7 +89,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ### Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
-I have mostly used "Roboto", "Lato" and "Oswald" for most of the site. "Robot" will be used for the Body and "lato" for the the Time Line.
+I have mostly used "Arima Madurai" and "Roboto" for most of the site. "Robot" will be used for the Body and "Arima Madurai" for the the logo.
 
 ### Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These logos are easy to interpret and are free to use on the website
@@ -101,19 +101,20 @@ I have used [Coolors](https://coolors.co/ "coolors") to generate a suitable pale
 I will explain the uses of the varius colours below, starting from top to bottom.
 
 
-![Colour Pallet](/wireframes/coolors-palette.png)
+![Colour Pallet](wireframes/coolors.png)
 
 
  
- * --imperial-red: #e63946ff;
- * --honeydew: #f1faeeff;
- * --powder-blue: #a8dadcff;
- * --celadon-blue: #457b9dff;
- * --prussian-blue: #1d3557ff;
+ * --china-pink: #d87093;
+ * --honeydew: #f1faee;
+ * --beige: #f1f3e0;
+ * --dutch-white: #f1e4c3;
+ * --wheat: #f0dcb4;
 
 ### Structure
 
-I have decided to use Flex for creating a resposive layout over Bootstrap. I preferred flex over bootstrap due to the flexibilty (no pun intended) in styling my webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
+I have decided to use CSS Grid and Flex for creating a resposive layout over Bootstrap. I preferred CSS Grid for main drif layout and flexbox due to the flexibilty (no pun intended) in styling a "grid in a grid" layout for the webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -121,7 +122,7 @@ I have decided to use Flex for creating a resposive layout over Bootstrap. I pre
 &nbsp;
 
 # Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+I originally created these by hand on paper which allowed me to be more productive in case i needed to change things last minute. I then transfered these to [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to create my wireframes for my website
 
 The wireframes are below:
 
@@ -137,12 +138,15 @@ The wireframes are below:
 &nbsp;
 
 # Features
+The main feature I think is the Gallery and the layout used.
 
-## Existing Features
+## Future Features
+I plan to continue to add more features as I learn new technologies through out the course.
+I plan to add a Google Maps API so that the End user can easily navigate to the park at a click of a button.
 
 ### Navigation Bar
 
-The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the club logo which doubles as a link back to the home screen.
+The navigation bar is fully responsive and even though it is a single page it still feels as a multiple page website. It includes links to hover pseudo elements and by limiting the links to three, makes for a relaxed and easy navigation experience.
 
 + Desktop (>=992px)
 
