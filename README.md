@@ -193,6 +193,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 ## Future Features
 + I plan to continue to add more features as I learn new technologies through out the course.
 + I plan to add a Google Maps API so that the End user can easily navigate to the park at a click of a button.
++ add form Modal in place os the embed form currently on the site.
 
 \
 &nbsp;
