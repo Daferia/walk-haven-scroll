@@ -136,6 +136,7 @@ select,
 textarea {
   color: var(--china-pink);
   font-size: 1.8rem;
+  width: 100%;
   padding: 1rem;
   margin-bottom: 2rem;
   border: 0.1rem solid var(--china-pink);
@@ -435,9 +436,9 @@ footer a {
   }
 
   
-.nav-link:hover {
+  .nav-link:hover {
   color: var(--china-pink);
-}
+  }
 
   .main-heading {
     font-size: 2.6rem;
