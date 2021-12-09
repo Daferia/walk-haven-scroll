@@ -86,7 +86,7 @@ a {
 }
 
 .box-shadow {
-  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.2); /*rem*/
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.2);
 }
 
 #about,
@@ -108,16 +108,37 @@ a {
   margin-bottom: 1.2rem;
 }
 
-.main-heading h2 {
-  font-size: 2.5rem;
-}
-
 i {
   margin-bottom: 1.5rem;
 }
 
 .grid-col-span-2 {
   grid-column: span 2;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: 0.1rem solid var(--china-pink);
+  border-radius: 0.5rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+  color: var(--china-pink);
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 0.1rem solid var(--china-pink);
 }
 
 /*Header & Nav*/
@@ -147,10 +168,6 @@ i {
   text-transform: uppercase;
 }
 
-.nav-link:hover {
-  color: var(--china-pink);
-}
-
 /*Main Section*/
 
 .main-section {
@@ -167,6 +184,10 @@ i {
   animation-name: fade-in;/*rename too vague*/
   animation-duration: 2s;
   animation-fill-mode: both;
+}
+
+.main-heading h2 {
+  font-size: 2.5rem;
 }
 
 /* Creates fade effect for main-section image */
@@ -277,31 +298,6 @@ i {
 
 .contact-box {
   margin-bottom: 2rem;
-}
-
-.contact-box form {/**/
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 2rem;
-  margin: 2rem auto;
-  border: 0.1rem solid var(--china-pink);
-  border-radius: 0.5rem;
-}
-
-form label {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-form input,
-form select,
-form textarea {
-  color: var(--china-pink);
-  font-size: 1.8rem;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border: 0.1rem solid var(--china-pink);
 }
 
 .contact-btn {
@@ -437,6 +433,11 @@ footer a {
   .nav-link {
     font-size: 2.2rem;
   }
+
+  
+.nav-link:hover {
+  color: var(--china-pink);
+}
 
   .main-heading {
     font-size: 2.6rem;
