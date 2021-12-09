@@ -86,7 +86,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ### Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
-I have mostly used "Arima Madurai" and "Roboto" for most of the site. "Robot" will be used for the Body and "Arima Madurai" for the the logo.
+I have mostly used **Arima Madurai** and **Roboto** for most of the site. **Roboto** will be used for the Body and "Arima Madurai" for the the logo.
 
 ### Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons are easy to interpret and are free to use on the website
@@ -107,7 +107,7 @@ I will explain the uses of the varius colours below, starting from top to bottom
 
 ### Structure
 
-I have decided to use CSS Grid and Flex for creating a resposive layout over Bootstrap. I preferred CSS Grid for main drif layout and flexbox due to the flexibilty (no pun intended) in styling a "grid in a grid" layout for the webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
+I have decided to use CSS Grid and Flex for creating a resposive layout over Bootstrap. I preferred CSS Grid for main drif layout and flexbox due to the flexibilty (no pun intended) in styling a "grid within a grid" layout for the webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
 
 \
 &nbsp;
@@ -252,8 +252,16 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 # Deployment
 
-This project is deployed by using Github.
-+ After coding and style the site, I used the Github pages to generate the URL - https://daferia.github.io/walk-haven-scroll/
+## Local Deployment
+
+Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+
++ Navigate to the repository on github and click 'Settings'.
++ Then select 'Pages' on the side navigation.
++ Select the 'None' dropdown, and then click 'master'.
++ Click on the 'Save' button.
++ Now the website is now live on https://sam-timmins.github.io/T4Tri-triathlon-club/
++ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 \
 &nbsp;
