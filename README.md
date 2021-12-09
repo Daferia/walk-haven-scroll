@@ -53,11 +53,11 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 * Quick footer links to social media.
 
 ## User Stories
-* As an End User, I want to be infomred of how the park came to be.
-* As an End User, I want to be able to easily contact the the site owner/meet-up organiser.
-* As an End User, I want to be able to make contact with us via several different methods, i.e. social media.
-* As an End User, I want to be able to easily navigate through the website.
-* As an End User, I want to know where the park is situated and directions.
+* As a User, I want to be infomred of how the park came to be.
+* As a User, I want to be able to easily contact the the site owner/meet-up organiser.
+* As a User, I want to be able to make contact with us via several different methods, i.e. social media.
+* As a User, I want to be able to easily navigate through the website.
+* As a User, I want to know where the park is situated and directions.
 
 ## Site owners Goals
 * Promote the park by getting user to see what we are about.
@@ -232,14 +232,14 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 # Testing
 
-* on testing the stie I found the images really slowed the site down. I used a site called
+* On testing the stie I found the images really slowed the site down. I used a site called
 [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg") to compress the files sizes for better rendering on loading the page.
 
 * Also when the site was three separate pages it would load the gallery really slowly which made for a unpleasant user experience. Changing it to one scrolling page made it a lot better to navigate.
 
 + I wanted to incorporate a modal for a contact form instead of a embebed form on the page. When trying to style it it would cause issues when in small viewports. As it was a CSS only modal i decided to wait for further learning and possibl add the feature in version 2 of the site.
 
-+ W3 HTMl Validation
++ W3 HTML Validation
 ![W3 HTML Validation](wireframes/w3validatorcheck.png)
 
 + W3 CSS Validation
@@ -247,7 +247,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 ## Unfixed Bugs
 
-+ Issue with form overflow on extremely small displays at <150px. Also some of th pading in the different screens sizes have difficult to get working 100% the way i wanted. Unless pointed out it should not affect the overall UX.
++ Issue with form overflow on extremely small displays at <250px. Also some of the margins in the different screens sizes have been difficult to get working 100% the way I wanted. Unless pointed out it should not affect the overall UX.
 
 
 # Deployment
