@@ -86,7 +86,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ### Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
-I have mostly used **Arima Madurai** and **Roboto** for most of the site. **Roboto** will be used for the Body and "Arima Madurai" for the the logo.
+I have mostly used **Arima Madurai** and **Roboto** for most of the site. **Roboto** will be used for the Body and **Arima Madurai** for the the logo.
 
 ### Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons are easy to interpret and are free to use on the website
@@ -232,8 +232,23 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 # Testing
 
-* On testing the stie I found the images really slowed the site down. I used a site called
-[iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg") to compress the files sizes for better rendering on loading the page.
+## Gallery
+
+* I planned to have a 6 column grid large screen and 1 column on mobile screens
+  * on testing the 6 column i found the images were to condensed and caused the grid to look overcrowded.
+  * on the mobile screen with 1 column i found that the gallery seemed a little longer than it needed be. Asked family for their input and they agreed.
+  * result was not what I found was the aim and decided to change it to a 4 column on larger screen and 2 columns on mobile.
+  * There was a noticeably better user experience on the molibe view as i was able to position larger height images along each other which allowed for a shorter yet more user friendly experience.
+  * I chosen to use a masonary type of layout that is fully responsive to any screen size.
+  \
+&nbsp;
+* After adding the images, and getting the correct layout, I noticed thats the load times of the site were too slow.
+  * The sizes of the images were on average 3mb each.
+  * I decided to compress the images with a site called [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg"). Images were able to be reduced by 88% without it affectibg the quality of the images.
+
+ ## Form
+
+* 
 
 * Also when the site was three separate pages it would load the gallery really slowly which made for a unpleasant user experience. Changing it to one scrolling page made it a lot better to navigate.
 
