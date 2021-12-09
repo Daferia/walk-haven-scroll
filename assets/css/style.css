@@ -170,6 +170,11 @@ textarea {
 
 /*Main Section*/
 
+.video-loop {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
 .main-section {
   margin-top: 2rem;
   display: grid;
@@ -319,11 +324,6 @@ textarea {
   background-color: var(--honeydew);
 }
 
-.video-loop {
-  width: 100%;
-  border-radius: 0.5rem;
-}
-
 /*footer*/
 
 .footer-box {
@@ -435,7 +435,7 @@ footer a {
   }
 
   
-.nav-link:hover {
+  .nav-link:hover {
   color: var(--china-pink);
 }
 
@@ -509,11 +509,6 @@ footer a {
 
   .contact-box form {
     max-width: 60%;
-  }
-
-  .video-loop {
-    width: 60%;
-    margin-left: 20%;
   }
 
   .footer-box i {
