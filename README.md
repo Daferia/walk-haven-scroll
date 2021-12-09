@@ -1,4 +1,4 @@
-![Logo](wireframes/Logo.png)
+![Logo](wireframes/logo.png)
 
 # Walk Haven - Dog Park
 
@@ -240,10 +240,10 @@ The navigation bar is fully responsive and even though it is a single page it st
 + I wanted to incorporate a modal for a contact form instead of a embebed form on the page. When trying to style it it would cause issues when in small viewports. As it was a CSS only modal i decided to wait for further learning and possibl add the feature in version 2 of the site.
 
 + W3 HTMl Validation
-![W3 HTML Validation](wireframes/W3validatorcheck.png)
+![W3 HTML Validation](wireframes/w3validatorcheck.png)
 
 + W3 CSS Validation
-![W3 CSS Validation](wireframes/w3CSSvalidation.png)
+![W3 CSS Validation](wireframes/w3cssvalidation.png)
 
 ## Unfixed Bugs
 
