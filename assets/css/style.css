@@ -141,6 +141,13 @@ textarea {
   border: 0.1rem solid var(--china-pink);
 }
 
+footer {
+  background: var(--wheat);
+  padding-top: 1rem;
+  text-align: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
 /*Header & Nav*/
 
 .logo {
@@ -302,7 +309,7 @@ textarea {
 }
 
 .contact-box {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .contact-btn {
@@ -325,15 +332,6 @@ textarea {
 }
 
 /*footer*/
-
-.footer-box {
-  min-height: 5vh;
-  background: var(--wheat);
-  padding-top: 1rem;
-  margin: auto;
-  text-align: center;
-  border-radius: 0.5rem 0.5rem 0 0;
-}
 
 footer a {
   font-size: 5rem;
