@@ -112,16 +112,8 @@ a {
   font-size: 2.5rem;
 }
 
-.main-info h3,
-.about-info h3,
-.volunteers-box h3,
-.hours-box h3,
-.hours-box h3 {
-  padding-bottom: 1.5rem;
-}
-
 i {
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .grid-col-span-2 {
@@ -213,13 +205,26 @@ i {
   grid-column: span 2;
 }
 
-.about-info {
+.mission-box,
+.location-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.story-box p {
+.main-info h3,
+.mission-box h3,
+.location-box h3,
+.volunteers-box h3,
+.hours-box h3,
+.hours-box h3 {
+  margin-bottom: 2rem;
+}
+
+.mission-box p,
+.location-box p,
+.story-box p,
+.volunteers-box p {
   margin-bottom: 2rem;
 }
 
@@ -235,7 +240,7 @@ i {
   font-weight: 900;
 }
 .hours + p {
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /*Gallery Page*/
@@ -394,12 +399,6 @@ footer a {
     grid-column: span 1;
   }
 
-  .about-info p,
-  .story-box p,
-  .volunteers-box p {
-    margin-bottom: 2rem;
-  }
-
   .about-section {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -428,11 +427,6 @@ footer a {
 @media screen and (min-width: 771px) {
   body {
     width: 70vw;
-    margin: auto;
-  }
-
-  i {
-    padding: 0 2rem 0 0;
     margin: auto;
   }
 
@@ -470,7 +464,7 @@ footer a {
   .main-info p,
   .about-info p,
   .volunteers-box p {
-    padding-left: 1.5rem;
+    margin-left: 1.5rem;
     margin: auto;
   }
 
@@ -490,7 +484,6 @@ footer a {
   .volunteers-box,
   .hours-box {
     flex-direction: row;
-    align-items: center;
   }
 
   .hours-box h2 {
