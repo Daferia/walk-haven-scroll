@@ -4,12 +4,11 @@
 
 
 
-# Goal for this Project
+# The Goal for this Project
 
-Welcome to Walk Haven - Dog Park Webiste.
+Welcome to Walk Haven - Dog Park Website.
 
-This site is to provide information about somewhere where owners and their best friends can feel at home.
-Visitors will have the abilty to contact Walk haven through a contact form.
+This site is to provide information about somewhere where owners and their best friends can feel at home. Visitors will have the ability to contact Walk haven through a contact form.
 
 
 ![Responsive Displays](wireframes/amiresponsive.png)
@@ -50,22 +49,22 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 ## User Goals
 
 + Visually appealing, including images.
-+ Easily navigated around on single page but feel like a multi-page layout.
++ Easily navigated around on a single page but feel like a multi-page layout.
 + Quality and valuable content.
-+ Easily found contact form.
++ Easily find contact form.
 + Quick footer links to social media.
 
 ## User Stories
 
-+ As a User, I want to be infomred of the story on how the park came to be.
++ As a User, I want to be informed of the story of how the park came to be.
 + As a User, I want to be able to easily contact the site owner using a simple contact form.
-+ As a User, I want to be able to make contact with and follow us via social media.
++ As a User, I want to be able to contact and follow us via social media.
 + As a User, I want to be able to easily navigate through the website.
-+ As a User, I want to know where the park is situated, opening hours and location.
++ As a User, I want to know where the park is situated, its opening hours and its location.
 
 ## Site owners Goals
 
-+ Promote the park by getting user to see what we are about.
++ Promote the park by getting the user to see what we are about.
 + Increase the number of volunteers and park visitors.
 
 ### Requirements
@@ -73,7 +72,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 + Easy to navigate on various screen sizes.
 + Clear information on the parks services.
 + Keep the user interested with small chunks of information and well organised gallery.
-+ Easy and Clear way of contacting the park.
++ Easy and clear way of contacting the park.
 
 ### Expectations
 
@@ -93,7 +92,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ### Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
-I have mostly used ++Arima Madurai++ and ++Roboto++ for most of the site. ++Roboto++ will be used for the Body and ++Arima Madurai++ for the the logo.
+I have mostly used ++Arima Madurai++ and ++Roboto++ for most of the site. ++Roboto++ will be used for the Body and ++Arima Madurai++ for the logo.
 
 ### Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons are easy to interpret and are free to use on the website
@@ -102,19 +101,24 @@ I have chosen to use the amazing icons supplied from [Font Awesome library](http
 
 I have used [Coolors](https://coolors.co/ "coolors") to generate a suitable palette for my colour scheme. 
 
-I will explain the uses of the varius colours below, starting from top to bottom.
+I will explain the uses of the various colours below, starting from top to bottom
 
 ![Colour Pallet](wireframes/coolors.png)
  
  + --china-pink: #d87093;
+   * Used for the **Fonts**, **Hover Effects** and **Links** colour
  + --honeydew: #f1faee;
+   * Used for the **Body** background colour
  + --beige: #f1f3e0;
+   * Used for the **Box** background colour
  + --dutch-white: #f1e4c3;
+   * Used for the **Main Heading** box
  + --wheat: #f0dcb4;
+   * Used for the **Header** and **Footer** background colour
 
 ### Structure
 
-I have decided to use CSS Grid and Flex for creating a resposive layout over Bootstrap. I preferred CSS Grid for main drif layout and flexbox due to the flexibilty (no pun intended) in styling a "grid within a grid" layout for the webiste and to overly worry about the Specifity issue created by importing the bootstrap library.
+I have decided to use **CSS Grid** and **Flexbox** for creating a responsive layout over **Bootstrap**. I preferred **CSS Grid** for the main grid layout and **Flexbox** due to the flexibility (no pun intended) in styling a "grid within a grid" layout for the website and to overly worry about the Specificity issue created by importing the **Bootstrap** library.
 
 \
 &nbsp;
@@ -124,7 +128,7 @@ I have decided to use CSS Grid and Flex for creating a resposive layout over Boo
 
 # Wireframes
 
-I originally created these by hand on paper which allowed me to be more productive in case i needed to change things last minute. I then transfered these to [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to create my wireframes for my website
+I originally created these by hand on paper which allowed me to be more productive in case I needed to change things last minute. I then transferred these to [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to create the wireframes for my website.
 
 The wireframes are below:
 
@@ -142,7 +146,7 @@ The wireframes are below:
 # Features
 
 + The main feature I think is the Gallery and the layout used.
-+ One page scrolling with 3 sections making it feel as a 3 page website.
++ One page scrolling with 3 sections making it feel as a 3-page website.
 + Contact form with video
 
 ### Navigation Bar
@@ -171,7 +175,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 ### Landing Page and Welcome Page
 
 + The Home/Landing page image
-   - General Welome page with a brief Welcome to the site. 
+   - General Welcome page with a brief Welcome to the site. 
    - Hero Image as well as a logo.
 
 ### Gallery
@@ -185,22 +189,25 @@ The navigation bar is fully responsive and even though it is a single page it st
   - This section includes: Our Mission, Park Location and Hours
   - Image of a family bathing the beloved pet
   - Our Story
-  - Volunteers Infomration
+  - Volunteers Information
   - Hours
 
 ### Contact Section
 
 + Simple and well styled form for General Enquiries, Volunteering and Complaints
 
++ added a video to the end on the contact section as i found that it added a good send off to mark the end of the contact section.
+
 ### Footer
 
-+ The footer will contain the links to all my social media.
++ The footer contains the links to all my social media.
 
 
 ## Future Features
-+ I plan to continue to add more features as I learn new technologies through out the course.
+
++ I plan to continue to add more features as I learn new technologies throughout the course.
 + I plan to add a Google Maps API so that the End user can easily navigate to the park at a click of a button.
-+ add form Modal in place os the embed form currently on the site.
++ add form Modal in place of the embed form currently on the site.
 
 \
 &nbsp;
@@ -243,31 +250,33 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 ## Gallery
 
-+ I planned to have a 6 column grid large screen and 1 column on mobile screens
++ I planned to have a 6-column grid large screen and 1 column on mobile screens
 
-  + on testing the 6 column i found the images were to condensed and caused the grid to look overcrowded.
+  - On testing the 6 columns I found the images were too condensed and caused the grid to look overcrowded.
 
-  + on the mobile screen with 1 column i found that the gallery seemed a little longer than it needed be. Asked family for their input and they agreed.
+  - On the mobile screen with 1 column, I found that the gallery seemed a little longer than it needed to be. I asked the family for their input, and they agreed.
 
-  + result was not what I found was the aim and decided to change it to a 4 column on larger screen and 2 columns on mobile.
+  - The result was not what I found was the aim and decided to change it to a 4 column on a larger screen and 2 columns on mobile.
 
-  + There was a noticeably better user experience on the molibe view as i was able to position larger height images along each other which allowed for a shorter yet more user friendly experience.
+  - There was a noticeably better user experience on the mobile view as I was able to position larger height images along with each other which allowed for a shorter yet more user-friendly experience.
 
-  + I chosen to use a masonary type of layout that is fully responsive to any screen size.
+  - When adding the images originally i had to spend a lot of time positioing the images. I then chose to use a masonry type of layout that is fully responsive to any screen size.
 
-  + After adding the images, and getting the correct layout, I noticed thats the load times of the site were too slow.
+  - After adding the images, and getting the correct layout, I noticed that the load times of the site were too slow.
 
-  + The sizes of the images were on average 3mb each.
+  - The sizes of the images were on average 3mb each.
 
-  + I decided to compress the images with a site called [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg"). Images were able to be reduced by 88% without it affectibg the quality of the images.
+  - I decided to compress the images with a site called [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg"). Images were able to be reduced by 88% without it affecting the quality of the images.
 
 ## Form
 
-+ I wanted to incorporate a modal for a contact form instead of a embebed form on the page. When trying to style it it would cause issues when in small viewports. As it was a CSS only modal i decided to wait for further learning and possibl add the feature in version 2 of the site.
++ I wanted to incorporate a modal for a contact form instead of an embedded form on the page. When trying to style it would cause issues when in small viewports. As it was a CSS only modal I decided to wait for further learning and possibly add the feature in version 2 of the site.
 
 + The form went through a few versions due to the width of the site and the different versions of the form 
 
-## Additonal Testing
++ I wanted to remove the labels from the form but after doing some research I could not get a clear answer on the accessibility guidelines as well as a consensus on it. I decided to keep the labels on the form and style them as per the Website colour palette.
+
+## Additional Testing
 
 + W3 HTML Validation
 ![W3 HTML Validation](wireframes/w3validatorcheck.png)
@@ -277,21 +286,23 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 ## Unfixed Bugs
 
-+ Issue with form overflow on extremely small displays at <250px. Also some of the margins in the different screens sizes have been difficult to get working 100% the way I wanted. Unless pointed out it should not affect the overall UX.
++ An issue with form overflow on extremely small displays at <250px. Also, some of the margins in the different screen sizes have been difficult to get working 100% the way I wanted. Unless pointed out it should not affect the overall UX.
+
++ 
 
 
 # Deployment
 
 ## Local Deployment
 
-Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
-+ Navigate to the repository on github and click 'Settings'.
++ Navigate to the repository on GitHub and click 'Settings'.
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
 + Now the website is live on https://daferia.github.io/walk-haven-scroll
-+ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
++ If any changes are required, they can be done, committed and pushed to GitHub and the changes will be updated.
 
 \
 &nbsp;
@@ -301,7 +312,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 
 # Credits
 
-For code insperation, help and advice,
+For code inspiration, help and advice,
 + [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 + [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
 
@@ -316,7 +327,7 @@ For code insperation, help and advice,
   - [Chewy](https://unsplash.com/@chewy "Chewy")
 
 
-## For content and style insperation
+## For content and style inspiration
 
 + [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "CSS-Tricks - A Complete Guide to Flexbox")
 + [W3 Schools](https://www.w3schools.com/ "W3 Schools")
