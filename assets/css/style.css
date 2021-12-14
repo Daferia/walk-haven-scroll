@@ -239,15 +239,12 @@ textarea {
 .location-box h3,
 .volunteers-box h3,
 .hours-box h3,
-.hours-box h3 {
-  margin-bottom: 2rem;
-}
-
+.hours-box h3,
 .mission-box p,
 .location-box p,
 .story-box p,
 .volunteers-box p {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .volunteers-box,
@@ -261,7 +258,8 @@ textarea {
   padding-bottom: 0.5rem;
   font-weight: 900;
 }
-.hours + p {
+
+div > p {
   margin-bottom: 1.5rem;
 }
 
@@ -404,10 +402,6 @@ footer a {
     grid-column: span 2;
   }
 
-  .hours p {
-    padding-bottom: 1.5rem;
-  }
-
   .gallery-images {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -454,20 +448,10 @@ footer a {
     font-size: 4rem;
   }
 
-  .main-info h3,
-  .about-info h3,
-  .volunteers-box h3,
-  .hours-box h3,
-  .hours-box h3 {
-    padding-right: 1.5rem;
-    margin: auto;
-  }
-
   .main-info p,
   .about-info p,
   .volunteers-box p {
     margin-left: 1.5rem;
-    margin: auto;
   }
 
   .about-section {
@@ -481,11 +465,6 @@ footer a {
   .about-info {
     flex-direction: row;
     align-items: center;
-  }
-
-  .volunteers-box,
-  .hours-box {
-    flex-direction: row;
   }
 
   .hours-box h2 {
