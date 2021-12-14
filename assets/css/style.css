@@ -283,7 +283,6 @@ textarea {
 .contact-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
 }
 
 .contact-box {
