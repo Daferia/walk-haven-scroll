@@ -89,12 +89,6 @@ a {
   box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.2);
 }
 
-#about,
-#gallery,
-#contact {
-  min-height: 100vh;
-}
-
 .gallery-images,
 .about-section,
 .contact-info {
@@ -259,10 +253,6 @@ textarea {
   font-weight: 900;
 }
 
-div > p {
-  margin-bottom: 1.5rem;
-}
-
 /*Gallery Page*/
 
 .gallery-images {
@@ -293,6 +283,7 @@ div > p {
 .contact-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .contact-box {
@@ -305,8 +296,7 @@ div > p {
   color: var(--china-pink);
   background-color: var(--wheat);
   padding: 1rem;
-  width: auto;
-  margin: 2rem 2rem auto;
+  margin: auto;
   border: 0.1rem solid var(--china-pink);
   border-radius: 1.5rem;
 }
