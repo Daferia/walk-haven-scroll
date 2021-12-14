@@ -5,6 +5,7 @@
 
 
 # Goal for this Project
+
 Welcome to Walk Haven - Dog Park Webiste.
 
 This site is to provide information about somewhere where owners and their best friends can feel at home.
@@ -14,67 +15,73 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 ![Responsive Displays](wireframes/amiresponsive.png)
 
 # Table of Contents
-* [UX](#ux "UX")
-    * [User Goals](#user-goals "User Goals")
-    * [User Stories](#user-stories "User Stories")
-    * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements and Expectations](#user-requirements-and-expectations)
-         * [Requirements](#requirements)
-         * [Expectations](#expectations)
-     * [Design Choices](#design-choices)
-        * [Fonts](#fonts)
-        * [Icons](#icons)
-        * [Colours](#colours)
-        * [Structure](#structure)
-    * [Wireframes](#wireframes)
-    * [Features](#features)
-        * [Existing Features](#existing-features)
-            * [Navigation Bar](#navigation-bar)
-            * [Landing Page](#landing-page)
-            * [About Section](#about-section)
-            * [Events Section](#events-section)
-            * [Contact Section](#contact-section)
-            * [Footer](#footer)
-        * [Future Features](#future-features)
-    * [Technologies used](#technologies-used)
-        * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
-    * [Testing](#testing)
-        * [Unfixed Bugs](#unfixed-bugs)
-    * [Deployment](#deployment)
-    * [Credits](#credits)
+
++ [UX](#ux "UX")
+    + [User Goals](#user-goals "User Goals")
+    + [User Stories](#user-stories "User Stories")
+    + [Site Owners Goals](#site-owners-goals)
+    + [User Requirements and Expectations](#user-requirements-and-expectations)
+         + [Requirements](#requirements)
+         + [Expectations](#expectations)
+     + [Design Choices](#design-choices)
+        + [Fonts](#fonts)
+        + [Icons](#icons)
+        + [Colours](#colours)
+        + [Structure](#structure)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+        + [Existing Features](#existing-features)
+            + [Navigation Bar](#navigation-bar)
+            + [Landing Page](#landing-page)
+            + [About Section](#about-section)
+            + [Events Section](#events-section)
+            + [Contact Section](#contact-section)
+            + [Footer](#footer)
+        + [Future Features](#future-features)
+    + [Technologies used](#technologies-used)
+        + [Languages](#languages)
+        + [Tools and Libraries](#tools-and-libraries)
+    + [Testing](#testing)
+        + [Unfixed Bugs](#unfixed-bugs)
+    + [Deployment](#deployment)
+    + [Credits](#credits)
 # UX
 
 ## User Goals
-* Visually appealing, including images.
-* Easily navigated around on single page but feel like a multi-page layout.
-* Quality and valuable content.
-* Easily found contact form.
-* Quick footer links to social media.
+
++ Visually appealing, including images.
++ Easily navigated around on single page but feel like a multi-page layout.
++ Quality and valuable content.
++ Easily found contact form.
++ Quick footer links to social media.
 
 ## User Stories
-* As a User, I want to be infomred of how the park came to be.
-* As a User, I want to be able to easily contact the the site owner/meet-up organiser.
-* As a User, I want to be able to make contact with us via several different methods, i.e. social media.
-* As a User, I want to be able to easily navigate through the website.
-* As a User, I want to know where the park is situated and directions.
+
++ As a User, I want to be infomred of the story on how the park came to be.
++ As a User, I want to be able to easily contact the site owner using a simple contact form.
++ As a User, I want to be able to make contact with and follow us via social media.
++ As a User, I want to be able to easily navigate through the website.
++ As a User, I want to know where the park is situated, opening hours and location.
 
 ## Site owners Goals
-* Promote the park by getting user to see what we are about.
-* Increase the number of volunteers and park visitors.
+
++ Promote the park by getting user to see what we are about.
++ Increase the number of volunteers and park visitors.
 
 ### Requirements
-* Easy to navigate on various screen sizes.
-* Clear information on the parks services.
-* Keep the user interested with small chunks of information and well organised gallery.
-* Easy and Clear way of contacting the park.
+
++ Easy to navigate on various screen sizes.
++ Clear information on the parks services.
++ Keep the user interested with small chunks of information and well organised gallery.
++ Easy and Clear way of contacting the park.
 
 ### Expectations
-* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
-* I expect all links to social media sites to be opened in a new tab.
-* I expect all navigation links to work correctly.
-* I expect screen size not to affect the quality of the website.
-* I expect all information to be correct and accurate.
+
++ I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
++ I expect all links to social media sites to be opened in a new tab.
++ I expect all navigation links to work correctly.
++ I expect screen size not to affect the quality of the website.
++ I expect all information to be correct and accurate.
 
 \
 &nbsp;
@@ -86,7 +93,7 @@ Visitors will have the abilty to contact Walk haven through a contact form.
 
 ### Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
-I have mostly used **Arima Madurai** and **Roboto** for most of the site. **Roboto** will be used for the Body and **Arima Madurai** for the the logo.
+I have mostly used ++Arima Madurai++ and ++Roboto++ for most of the site. ++Roboto++ will be used for the Body and ++Arima Madurai++ for the the logo.
 
 ### Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons are easy to interpret and are free to use on the website
@@ -99,11 +106,11 @@ I will explain the uses of the varius colours below, starting from top to bottom
 
 ![Colour Pallet](wireframes/coolors.png)
  
- * --china-pink: #d87093;
- * --honeydew: #f1faee;
- * --beige: #f1f3e0;
- * --dutch-white: #f1e4c3;
- * --wheat: #f0dcb4;
+ + --china-pink: #d87093;
+ + --honeydew: #f1faee;
+ + --beige: #f1f3e0;
+ + --dutch-white: #f1e4c3;
+ + --wheat: #f0dcb4;
 
 ### Structure
 
@@ -204,25 +211,27 @@ The navigation bar is fully responsive and even though it is a single page it st
 # Technologies used
 
 ## Languages
-* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
-* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
++ [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
++ [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
 
 ## Libraries & Framework
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
++ [Google Fonts](https://fonts.google.com/ "Google Fonts")
++ [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
 ## Tools
-* [Github](https://github.com/ "Github")
-* [Gitpod](https://www.gitpod.io/ "Gitpod")
-* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
-* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [Coolors](https://coolors.io/ "coolors")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Unsplash](https://unsplash.com/ "Unsplash")
-* [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg")
++ [Github](https://github.com/ "Github")
++ [Gitpod](https://www.gitpod.io/ "Gitpod")
++ [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
++ [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
++ [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
++ [Coolors](https://coolors.io/ "coolors")
++ [Font Awesome library](https://fontawesome.com/ "Font Awesome")
++ [Google Fonts](https://fonts.google.com/ "Google Fonts")
++ [Unsplash](https://unsplash.com/ "Unsplash")
++ [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg")
 
 \
 &nbsp;
@@ -234,25 +243,31 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 ## Gallery
 
-* I planned to have a 6 column grid large screen and 1 column on mobile screens
-  * on testing the 6 column i found the images were to condensed and caused the grid to look overcrowded.
-  * on the mobile screen with 1 column i found that the gallery seemed a little longer than it needed be. Asked family for their input and they agreed.
-  * result was not what I found was the aim and decided to change it to a 4 column on larger screen and 2 columns on mobile.
-  * There was a noticeably better user experience on the molibe view as i was able to position larger height images along each other which allowed for a shorter yet more user friendly experience.
-  * I chosen to use a masonary type of layout that is fully responsive to any screen size.
-  \
-&nbsp;
-* After adding the images, and getting the correct layout, I noticed thats the load times of the site were too slow.
-  * The sizes of the images were on average 3mb each.
-  * I decided to compress the images with a site called [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg"). Images were able to be reduced by 88% without it affectibg the quality of the images.
++ I planned to have a 6 column grid large screen and 1 column on mobile screens
 
- ## Form
+  + on testing the 6 column i found the images were to condensed and caused the grid to look overcrowded.
 
-* 
+  + on the mobile screen with 1 column i found that the gallery seemed a little longer than it needed be. Asked family for their input and they agreed.
 
-* Also when the site was three separate pages it would load the gallery really slowly which made for a unpleasant user experience. Changing it to one scrolling page made it a lot better to navigate.
+  + result was not what I found was the aim and decided to change it to a 4 column on larger screen and 2 columns on mobile.
+
+  + There was a noticeably better user experience on the molibe view as i was able to position larger height images along each other which allowed for a shorter yet more user friendly experience.
+
+  + I chosen to use a masonary type of layout that is fully responsive to any screen size.
+
+  + After adding the images, and getting the correct layout, I noticed thats the load times of the site were too slow.
+
+  + The sizes of the images were on average 3mb each.
+
+  + I decided to compress the images with a site called [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg"). Images were able to be reduced by 88% without it affectibg the quality of the images.
+
+## Form
 
 + I wanted to incorporate a modal for a contact form instead of a embebed form on the page. When trying to style it it would cause issues when in small viewports. As it was a CSS only modal i decided to wait for further learning and possibl add the feature in version 2 of the site.
+
++ The form went through a few versions due to the width of the site and the different versions of the form 
+
+## Additonal Testing
 
 + W3 HTML Validation
 ![W3 HTML Validation](wireframes/w3validatorcheck.png)
@@ -275,7 +290,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
-+ Now the website is now live on https://sam-timmins.github.io/T4Tri-triathlon-club/
++ Now the website is live on https://daferia.github.io/walk-haven-scroll
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 \
@@ -287,13 +302,13 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 # Credits
 
 For code insperation, help and advice,
-* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-* [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
++ [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
++ [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
 
 
 ## image credits and location
 
-+ Most of my images were from a person call Chewy. I found his/her images really expressed what i was trying to achieve.
++ Most of my images were from a photographer called Chewy. I found their images really expressed what I was trying to achieve.
 
   - [Humphrey Muleba](https://unsplash.com/@good_citizen "Humphrey Muleba")
   - [Sam Manns](https://unsplash.com/@sammanns94 "Sam Manns")
@@ -303,9 +318,9 @@ For code insperation, help and advice,
 
 ## For content and style insperation
 
-* [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "CSS-Tricks - A Complete Guide to Flexbox")
-* [W3 Schools](https://www.w3schools.com/ "W3 Schools")
-* [Kevin Powell](https://www.youtube.com/kepowob "Kevin Powell")
++ [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "CSS-Tricks - A Complete Guide to Flexbox")
++ [W3 Schools](https://www.w3schools.com/ "W3 Schools")
++ [Kevin Powell](https://www.youtube.com/kepowob "Kevin Powell")
 
 
 \
