@@ -214,7 +214,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 + Simple and well styled form for General Enquiries, Volunteering and Complaints
 
-+ added a video to the end on the contact section as i found that it added a good send off to mark the end of the contact section.
++ added a video to the end on the contact section as I found that it added a good send off to mark the end of the contact section.
 
 ### Footer
 
@@ -256,6 +256,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 + [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 + [Google Fonts](https://fonts.google.com/ "Google Fonts")
 + [Unsplash](https://unsplash.com/ "Unsplash")
++ [Pexels](https://www.pexels.com/ "Pexels")
 + [iloveimg](https://www.iloveimg.com/resize-image#resize-options,percentage "iloveimg")
 
 \
@@ -268,7 +269,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 ## Gallery
 
-+ I planned to have a 6-column grid large screen and 1 column on mobile screens
++ I planned to have a 6 column grid large screen and 1 column on mobile screens
 
   - On testing the 6 columns I found the images were too condensed and caused the grid to look overcrowded.
 
@@ -306,12 +307,8 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 + An issue with form overflow on extremely small displays at <250px. Also, some of the margins in the different screen sizes have been difficult to get working 100% the way I wanted. Unless pointed out it should not affect the overall UX.
 
-+ 
 
-
-# Deployment
-
-## Local Deployment
+## Deployment
 
 Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
@@ -335,15 +332,17 @@ For code inspiration, help and advice,
 + [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
 
 
-## image credits and location
+## Image Credits
 
-+ Most of my images were from a photographer called Chewy. I found their images really expressed what I was trying to achieve.
+ Most of my images were from a photographer called **Chewy**. I found their images really expressed what I was trying to achieve. I also used a video from **Kelly Lacy** found on **Pexels**. I did contact all the people mentioned in the below credits for permission to use thier material. It was confirmed by all of them.
 
-  - [Humphrey Muleba](https://unsplash.com/@good_citizen "Humphrey Muleba")
-  - [Sam Manns](https://unsplash.com/@sammanns94 "Sam Manns")
-  - [Marcus Cramer](https://unsplash.com/@marcuslcramer "Marcus Cramer")
-  - [Chewy](https://unsplash.com/@chewy "Chewy")
-
+  - Images
+    - [Humphrey Muleba](https://unsplash.com/@good_citizen "Humphrey Muleba")
+    - [Sam Manns](https://unsplash.com/@sammanns94 "Sam Manns")
+    - [Marcus Cramer](https://unsplash.com/@marcuslcramer "Marcus Cramer")
+    - [Chewy](https://unsplash.com/@chewy "Chewy")
+  - Video
+    - [Kelly Lacy](https://www.pexels.com/@kelly-l-1179532 "Kelly Lacy")
 
 ## For content and style inspiration
 
