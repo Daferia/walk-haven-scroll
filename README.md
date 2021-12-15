@@ -133,9 +133,27 @@ I originally created these by hand on paper which allowed me to be more producti
 The wireframes are below:
 
 
-### [Desktop Wireframe]( "Desktop wireframe")
-### [Tablet Wireframe]( "Tablet wireframe")
-### [Phone Wireframe]( "Phone wireframe")
+### Desktop Wireframe
+\
+&nbsp;
+![Home and About Us - Desktop](wireframes/homeaboutus771.png)
+\
+&nbsp;
+![Gallery - Desktop](wireframes/gallery771.png)
+\
+&nbsp;
+![Contact Us and Footer - Desktop](wireframes/formvideoandfooter771.png)
+
+### Phone Wireframe
+\
+&nbsp;
+![Home and About Us - Mobile](wireframes/homeaboutusmobile.png)
+\
+&nbsp;
+![Gallery - Mobile](wireframes/gallerymobile.png)
+\
+&nbsp;
+![Contact Us and Footer - Mobile](wireframes/formvideoandfootermobile.png)
 
 \
 &nbsp;
@@ -160,11 +178,11 @@ The navigation bar is fully responsive and even though it is a single page it st
 &nbsp;
 ![Navigation bar](wireframes/large.png)
 
-
 + Small devices (<480px)
 \
 &nbsp;
 ![Navigation Bar](wireframes/mobile.png)
+
 
 \
 &nbsp;
