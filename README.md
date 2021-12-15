@@ -62,19 +62,19 @@ This site is to provide information about somewhere where owners and their best 
 + As a User, I want to be able to easily navigate through the website.
 + As a User, I want to know where the park is situated, its opening hours and its location.
 
-## Site owners Goals
+## Site Owners Goals
 
 + Promote the park by getting the user to see what we are about.
 + Increase the number of volunteers and park visitors.
 
-### Requirements
+## Requirements
 
 + Easy to navigate on various screen sizes.
 + Clear information on the parks services.
 + Keep the user interested with small chunks of information and well organised gallery.
 + Easy and clear way of contacting the park.
 
-### Expectations
+## Expectations
 
 + I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
 + I expect all links to social media sites to be opened in a new tab.
@@ -133,9 +133,8 @@ I originally created these by hand on paper which allowed me to be more producti
 The wireframes are below:
 
 
-### Desktop Wireframe
-\
-&nbsp;
+## Desktop Wireframe
+
 ![Home and About Us - Desktop](wireframes/homeaboutus771.png)
 \
 &nbsp;
@@ -144,9 +143,8 @@ The wireframes are below:
 &nbsp;
 ![Contact Us and Footer - Desktop](wireframes/formvideoandfooter771.png)
 
-### Phone Wireframe
-\
-&nbsp;
+## Phone Wireframe
+
 ![Home and About Us - Mobile](wireframes/homeaboutusmobile.png)
 \
 &nbsp;
@@ -199,7 +197,9 @@ The navigation bar is fully responsive and even though it is a single page it st
 ### Gallery
 
 + Collection of images taken mostly from Unsplash
-  - random pictures of pets and people walking their dogs.
+  - Random pictures of pets and people walking their dogs.
+  - Well organised grid layout that is fully responsive at any viewport.
+  - Images are really good quality adding to the over clean and clear feel to the site.
 
 ### About Section
 
@@ -214,7 +214,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 + Simple and well styled form for General Enquiries, Volunteering and Complaints
 
-+ added a video to the end on the contact section as I found that it added a good send off to mark the end of the contact section.
++ Added a video to the end on the contact section as I found that it added a good send off to mark the end of the contact section.
 
 ### Footer
 
@@ -225,7 +225,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 
 + I plan to continue to add more features as I learn new technologies throughout the course.
 + I plan to add a Google Maps API so that the End user can easily navigate to the park at a click of a button.
-+ add form Modal in place of the embed form currently on the site.
++ Add a modal in place of the embed form currently on the site.
 
 \
 &nbsp;
