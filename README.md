@@ -185,9 +185,9 @@ The navigation bar is fully responsive and even though it is a single page it st
 \
 &nbsp;
 
-## Landing Page and Welcome Page
+## Landing Page
 
-+ The Home/Landing page image
++ The Landing page
    - General Welcome page with a brief Welcome to the site. 
    - Hero Image as well as a logo.
 
