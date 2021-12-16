@@ -129,6 +129,7 @@ input,
 select,
 textarea {
   color: var(--china-pink);
+  font-family: inherit;
   font-size: 1.8rem;
   width: 100%;
   padding: 1rem;
