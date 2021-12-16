@@ -258,6 +258,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 + [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
 ## Tools and Libraries
+
 + [Github](https://github.com/ "Github")
 + [Gitpod](https://www.gitpod.io/ "Gitpod")
 + [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
@@ -338,10 +339,11 @@ Following writing the code then committing and pushing to GitHub, this project w
 
 # Credits
 
-For code inspiration, help and advice,
-+ [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-+ [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
-+ [Sam Timmins](https://github.com/sam-timmins "Sam Timmins")
+For code inspiration, help and advice. Thank you!
+
++ [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") - Code Institue Mentor
++ [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees") - Colleague, friend and motivator
++ [Sam Timmins](https://github.com/sam-timmins "Sam Timmins") - README Template
 
 
 ## Image Credits
