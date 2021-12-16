@@ -257,7 +257,7 @@ The navigation bar is fully responsive and even though it is a single page it st
 + [Google Fonts](https://fonts.google.com/ "Google Fonts")
 + [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
-## Tools
+## Tools and Libraries
 + [Github](https://github.com/ "Github")
 + [Gitpod](https://www.gitpod.io/ "Gitpod")
 + [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
