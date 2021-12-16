@@ -2,14 +2,11 @@
 
 # Walk Haven - Dog Park
 
-
-
 # The Goal for this Project
 
 Welcome to Walk Haven - Dog Park Website.
 
 This site is to provide information about somewhere where owners and their best friends can feel at home. Visitors will have the ability to contact Walk haven through a contact form.
-
 
 ![Responsive Displays](wireframes/amiresponsive.png)
 
@@ -32,7 +29,6 @@ This site is to provide information about somewhere where owners and their best 
             + [Navigation Bar](#navigation-bar)
             + [Landing Page](#landing-page)
             + [About Section](#about-section)
-            + [Events Section](#events-section)
             + [Contact Section](#contact-section)
             + [Footer](#footer)
         + [Future Features](#future-features)
@@ -43,6 +39,7 @@ This site is to provide information about somewhere where owners and their best 
         + [Unfixed Bugs](#unfixed-bugs)
     + [Deployment](#deployment)
     + [Credits](#credits)
+
 # UX
 
 ## User Goals
@@ -87,23 +84,23 @@ This site is to provide information about somewhere where owners and their best 
 \
 &nbsp;
 
-## Design Choices
+# Design Choices
 
-### Fonts
+## Fonts
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website.
 I have mostly used ++Arima Madurai++ and ++Roboto++ for most of the site. ++Roboto++ will be used for the Body and ++Arima Madurai++ for the logo.
 
-### Icons
+## Icons
 I have chosen to use the amazing icons supplied from [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons are easy to interpret and are free to use on the website
 
-### Colours
+## Colours
 
 I have used [Coolors](https://coolors.co/ "coolors") to generate a suitable palette for my colour scheme. 
 
-I will explain the uses of the various colours below, starting from top to bottom
-
 ![Colour Pallet](wireframes/coolors.png)
- 
+
+ I will explain the uses of the various colours below:
+
  + --china-pink: #d87093;
    * Used for the **Fonts**, **Hover Effects** and **Links** colour
  + --honeydew: #f1faee;
@@ -115,7 +112,8 @@ I will explain the uses of the various colours below, starting from top to botto
  + --wheat: #f0dcb4;
    * Used for the **Header** and **Footer** background colour
 
-### Structure
+
+## Structure
 
 I have decided to use **CSS Grid** and **Flexbox** for creating a responsive layout over **Bootstrap**. I preferred **CSS Grid** for the main grid layout and **Flexbox** due to the flexibility (no pun intended) in styling a "grid within a grid" layout for the website and to overly worry about the Specificity issue created by importing the **Bootstrap** library.
 
@@ -173,12 +171,12 @@ The navigation bar is fully responsive and even though it is a single page it st
 + Desktop (>=771px)
 \
 &nbsp;
-![Navigation bar](wireframes/large.png)
+![Navigation Bar Large](wireframes/large.png)
 
 + Small devices (<480px)
 \
 &nbsp;
-![Navigation Bar](wireframes/mobile.png)
+![Navigation Bar Mobile](wireframes/mobile.png)
 
 
 \
@@ -187,20 +185,26 @@ The navigation bar is fully responsive and even though it is a single page it st
 \
 &nbsp;
 
-### Landing Page and Welcome Page
+## Landing Page and Welcome Page
 
 + The Home/Landing page image
    - General Welcome page with a brief Welcome to the site. 
    - Hero Image as well as a logo.
 
-### Gallery
+![Landing Page Responsive](wireframes/responsivehome.png)
+
+
+## Gallery
 
 + Collection of images taken mostly from Unsplash
   - Random pictures of pets and people walking their dogs.
   - Well organised grid layout that is fully responsive at any viewport.
   - Images are really good quality adding to the over clean and clear feel to the site.
 
-### About Section
+![Gallery Responsive](wireframes/responsivegallery.png)
+
+
+## About Section
 
 + This section is broken down into small bite size chucks on information as well as Our Story on how Walk Haven came to be
   - This section includes: Our Mission, Park Location and Hours
@@ -209,15 +213,23 @@ The navigation bar is fully responsive and even though it is a single page it st
   - Volunteers Information
   - Hours
 
-### Contact Section
+![About Us Responsive](wireframes/responsiveabout.png)
+
+
+## Contact Section
 
 + Simple and well styled form for General Enquiries, Volunteering and Complaints
 
 + Added a video to the end on the contact section as I found that it added a good send off to mark the end of the contact section.
 
-### Footer
+![Contact Us Responsive](wireframes/responsivecontact.png)
+
+
+## Footer
 
 + The footer contains the links to all my social media.
+
+![Footer Responsive](wireframes/responsivefooter.png)
 
 
 ## Future Features
@@ -329,6 +341,7 @@ Following writing the code then committing and pushing to GitHub, this project w
 For code inspiration, help and advice,
 + [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 + [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees")
++ [Sam Timmins](https://github.com/sam-timmins "Sam Timmins")
 
 
 ## Image Credits
