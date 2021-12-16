@@ -163,6 +163,10 @@ textarea {
   text-transform: uppercase;
 }
 
+.nav-link:hover {
+  color: var(--china-pink);
+  }
+
 /*Main Section*/
 
 .main-section {
@@ -313,6 +317,7 @@ textarea {
 /*footer*/
 
 .footer-box {
+  color: rgb(80, 80, 80);
   min-height: 5vh;
   background: var(--wheat);
   padding-top: 1rem;
@@ -321,10 +326,14 @@ textarea {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-footer a {
+.footer-box a {
   font-size: 5rem;
   color: var(--china-pink);
   padding: 0 1rem 0 1rem;
+}
+
+.footer-box a:hover {
+  color: rgb(80, 80, 80);
 }
 
 /* Thank you page*/
@@ -414,11 +423,6 @@ footer a {
 
   .nav-link {
     font-size: 2.2rem;
-  }
-
-  
-  .nav-link:hover {
-  color: var(--china-pink);
   }
 
   .main-heading p{
