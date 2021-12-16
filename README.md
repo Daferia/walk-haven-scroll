@@ -341,9 +341,9 @@ Following writing the code then committing and pushing to GitHub, this project w
 
 For code inspiration, help and advice. Thank you!
 
-+ [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") - Code Institue Mentor
-+ [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees") - Colleague, friend and motivator
-+ [Sam Timmins](https://github.com/sam-timmins "Sam Timmins") - README Template
++ [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") - Code Institute Mentor.
++ [Christopher Rees](https://portfolio.christopher-rees.co.uk/ "Christopher Rees") - Colleague, friend and motivator.
++ [Sam Timmins](https://github.com/sam-timmins "Sam Timmins") - README Template help.
 
 
 ## Image Credits
